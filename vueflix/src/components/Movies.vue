@@ -29,9 +29,10 @@ defineProps({
 
 <style lang="scss" scoped>
 .movie-wrapper {
-  padding: 10px;
+  padding-bottom: 10px;
   opacity: 0.78;
   cursor: pointer;
+  max-width: 300px;
 
   .movie-poster {
     border-radius: 8px;

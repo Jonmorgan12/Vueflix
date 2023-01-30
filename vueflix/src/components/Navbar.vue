@@ -1,13 +1,7 @@
 <template>
   <header class="header-nav">
-    <img
-      alt="Vue logo"
-      class="logo"
-      src="@/assets/logo.svg"
-      width="50"
-      height="50"
-    />
-    <NavbarTitle title="Vueflix 🎬" />
+    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="50" height="50" />
+    <NavbarTitle title="UEFLIX 🎬" />
     <div class="wrapper">
       <nav class="router-container">
         <RouterLink to="/movies-list">Home</RouterLink>

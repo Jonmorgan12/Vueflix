@@ -9,11 +9,15 @@ const store = createStore({
   state() {
     return {
       movies: [],
+      selectedMovie: [],
     };
   },
   mutations: {
     updatedMoviesState(state, payload) {
       state.movies = payload;
+    },
+    updatedSelectedMovieState(state, payload) {
+      state.selectedMovie = payload;
     },
   },
 });

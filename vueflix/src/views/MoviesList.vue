@@ -32,7 +32,7 @@ const getAllMovies = async () => {
     }
 
     const response = await axios.get(
-      "http://www.omdbapi.com/?apikey=b43d3b73&s=batman"
+      "http://www.omdbapi.com/?apikey=b43d3b73&s=star+wars"
     );
 
     if (response.status === 200) {
